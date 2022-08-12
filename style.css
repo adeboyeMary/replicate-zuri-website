@@ -1,21 +1,37 @@
-#first-section{
-	background-image: url(https://zuri.//hero-bg.svg);
+body {
+	margin: 0;
+	/* font-family: 'Averta'; */
+	font-size: 14px;
+	font-weight: 400;
+	color: #514949;
+	line-height: 2em;
+}
+
+#part-one {
+	background-image: url(https://zuri.team/img/hero-bg.svg);
 	background-color: #FFFAFA;
 }
 
-#first-logo {
-	margin: 5%;
-	padding-left: 41%;
+#zuri-logo-1 {
+	padding-left: 45%;
+	padding-top: 6%;
+	padding-bottom: 5%;
 }
 
 #center {
 	text-align: center;
 	color: #514949;
 	line-height: 40px;
+	font-size: 20px;
 }
 
-#learn-build-sec {
-	font-size: 20px;
+/* #learn-build-sec {
+	
+} */
+
+.span-all {
+	color: #E7332b;
+	text-decoration: none;
 }
 
 #unlock-sec {
@@ -23,6 +39,38 @@
 	width: 65%;
 	padding-left: 17%;
 	padding-top: 2%;
+}
+
+#new-butn {
+	background-color: #E7332b;
+	color: #fff;
+	padding: 2% 3%;
+	text-decoration: none;
+	margin-right: 3%;
+}
+#new-butn:hover {
+	background-color: #fff;
+	color: #E7332b;
+	border: 1px solid #E7332B;
+}
+
+#indust-butn {
+	background-color: #fff;
+	color: #E7332b;
+	text-decoration: none;
+	border: 1px solid #e7332b;
+	padding: 2% 3%;
+}
+
+#indust-butn:hover {
+	background-color: #E7332B;
+	color: #fff;
+}
+
+#new-indus {
+	padding-left: 33%;
+	padding-top: 10%;
+	padding-bottom: 30%;
 }
 
 #part-two {
@@ -41,6 +89,16 @@
 	font-size: 24px;
 	line-height: 38px;
 	color: #514949;
+}
+
+#part-two-flex {
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	box-sizing: border-box;
+	width: 98%;
+	color: #514949;
+	padding-left: 2%;
 }
 
 .flex-container {
@@ -75,15 +133,19 @@
 
 .itm {
 	padding-left: 25%;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .icons {
 	padding-left: 16%;
 	font-size: 13px;
 }
+
+#icon-div {
+	height: 82%;
+}
 .icons img {
-	height: 9%;
+	height: 7%;
 }
 
 #end {
@@ -652,4 +714,132 @@ svg {
 }
 table, tr {
 	border: 1px solid #ddd;
+}
+
+
+@media only screen and (max-width: 600px) {
+	#part-one {
+		background-image: url(https://zuri.team/img/hero-bg.svg);
+		background-color: #FFFAFA;
+	}
+	
+	#zuri-logo-1 {
+		padding-left: 33%;
+		padding-top: 24%;
+		padding-bottom: 12%;
+	}
+
+	#center {
+		text-align: center;
+		color: #514949;
+		line-height: 30px;
+		font-size: 18px;
+	}
+
+	#unlock-sec {
+		font-size: 14px;
+		width: 91%;
+		padding-left: 3%;
+		padding-top: 2%;
+		text-align: center;
+	}
+
+	#new-indus {
+		padding-left: 25%;
+		padding-top: 10%;
+		padding-bottom: 20%;
+		display: flex;
+		flex-direction: column;
+		width: 48%;
+	}
+
+	#new-butn {
+		background-color: #E7332b;
+		color: #fff;
+		padding: 2% 8%;
+		text-decoration: none;
+		margin-bottom: 9%;
+	}
+
+	#part-two p {
+		font-size: 22px;
+		line-height: 41px;
+		color: #514949;
+		width: 118%;
+		margin-left: -8%;
+	}
+
+	#part-two-flex {
+		display: flex;
+		flex-direction: column;
+		max-width: 100%;
+		box-sizing: border-box;
+		width: 94%;
+		color: #514949;
+		padding-left: 6%;
+	}
+
+	.flex-item1 {
+		padding: 6% 6% 6% 4%;
+		background-color: #FFFAFA;
+		margin-bottom: 12%;
+	}
+
+	.flex-item2 {
+		padding: 6% 6% 6% 4%;
+		background-color: #FFFAFA;
+		margin-bottom: 12%;
+	}
+
+	.flex-container {
+		color: #514949;
+		display: flex;
+		flex-direction: column;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+
+	#zlogo-pic {
+		width: 36%;
+		padding-top: 25%;
+		padding-left: 29%;
+	}
+
+	.itm {
+		margin-left: 14%;
+	}
+
+	.itm-h {
+		font-size: 25px;
+	}
+
+	.itm-p1 {
+		padding-left: 7%;
+		margin-top: -6%;
+	}
+	.itm-p2 {
+		padding-left: 8%;
+	}
+	.itm-p3 {
+		width: 81%;
+		text-align: center;
+		margin-left: -22%;
+	}
+	.itm-h3 {
+		font-size: 25px;
+		padding-left: 25%;
+	}
+	#icon-div {
+		width: 93%;
+		height: 149%;
+		padding-left: 31%;
+	}
+	.icons img {
+		height: 7%;
+	}
+	.itm-h-two {
+		font-size: 25px;
+		margin-left: -3%;
+	}
+
 }
