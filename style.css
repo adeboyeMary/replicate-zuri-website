@@ -750,23 +750,30 @@ table, tr {
 		padding-bottom: 20%;
 		display: flex;
 		flex-direction: column;
-		width: 48%;
+		width: 55%;
 	}
 
 	#new-butn {
 		background-color: #E7332b;
 		color: #fff;
-		padding: 2% 8%;
+		padding: 2% 6%;
 		text-decoration: none;
 		margin-bottom: 9%;
+	}
+	#indust-butn {
+		background-color: #fff;
+		color: #E7332b;
+		text-decoration: none;
+		border: 1px solid #e7332b;
+		padding: 2% 2%;
 	}
 
 	#part-two p {
 		font-size: 22px;
 		line-height: 41px;
 		color: #514949;
-		width: 118%;
-		margin-left: -8%;
+		width: 113%;
+		margin-left: -6%;
 	}
 
 	#part-two-flex {
