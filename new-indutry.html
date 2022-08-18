@@ -14,19 +14,21 @@
                 <div class="item-A">
                     <img src="logo.svg" alt="">
                 </div>
-                <div class="item-B"></div>
-                    <div class="spacing">About</div>
-                    <div class="spacing">Why Us?</div>
-                    <div class="spacing">Stacks Covered</div>
-                    <div class="spacing">FAQS</div>
-
-                    <img src="thumbs.png" alt="" id="thumbs-img">
-                    <a id="enroll" href="https://training.zuri.team/enroll">
-                        <button>Enroll Now</button>
-                    </a>
+                <div class="item-B">
+                    <div class="spacing"><a href="#sect-two">About</a></div>
+                    <div class="spacing"><a href="#sect-three">Why Us?</a></div>
+                    <div class="spacing"><a href="#sect-six">Stacks Covered</a></div>
+                    <div class="spacing"><a href="#sect-eig">FAQS</a></div>
                 </div>
-
-                
+                <div id="logo-container">
+                    <div id="item-c">
+                        <img src="thumbs.png" alt="" id="thumbs-img">
+                    </div>
+                    <div id="item-d">
+                        <a id="enroll" href="https://training.zuri.team/enroll">Enroll Now</a>
+                    </div>
+                </div>
+               
             </div>
         </header>
 
@@ -206,19 +208,23 @@
                         <a class="btn" href="https://training.zuri.team/enroll">Enroll Now</a>
                     </div>
 
-                    <div style="margin-top: 9%;">
-                        <button class="my-btn">
-                            <img src="hand1.svg" alt="">Teamwork
-                        </button>
-                        <button class="my-btn">
-                            <img src="mentor.svg" alt="">Mentorship
-                        </button>
-                        <button class="my-btn">
-                            <img src="practice.svg" alt="">Practice
-                        </button>
-                        <button class="my-btn">
-                            <img src="games.svg" alt="">Fun &  Games
-                        </button>
+                    <div style="margin-top: 9%; font-size: 14px; margin-left: -4%;">
+                        <div class="my-bttn">
+                            <img src="hand1.svg" alt="">
+                            <p>Teamwork</p>
+                        </div>
+                        <div class="my-bttn two-divs">
+                            <img src="mentor.svg" alt="">
+                            <p>Mentorship</p>
+                        </div>
+                        <div class="my-bttn">
+                            <img src="practice.svg" alt="">
+                            <p>Practice</p>
+                        </div>
+                        <div class="my-bttn two-divs">
+                            <img src="games.svg" alt="">
+                            <p>Fun &  Games</p>
+                        </div>
                     </div>
                 </div>
                 
@@ -247,9 +253,11 @@
             <div class="flex-container">
                 <div class="box-crse">
                     <p style="font-size: 20px; font-weight: 700;">Frontend Development</p>
-                    <img src="html.svg" alt="">
-                    <img src="css-3 logo.svg" alt="">
-                    <img src="javascript-logo.svg" alt="">
+                    <div class="logo-div">
+                        <img src="html.svg" alt="">
+                        <img src="css-3 logo.svg" alt="">
+                        <img src="javascript-logo.svg" alt="">
+                    </div>
                     <p style="font-size: 16px; padding-top: 9%; color: #1b1a20;">This track deals with 
                         the aspect of your application that the users interact with. 
                         A front-end developer will be able to 
@@ -258,9 +266,11 @@
                 </div>
                 <div class="box-crse">
                     <p style="font-size: 20px; font-weight: 700;">Backend Development</p>
-                    <img src="php2 logo.svg" alt="">
-                    <img src="python-4 logo.svg" alt="">
-                    <img src="javascript-logo.svg" alt="">
+                    <div class="logo-div">
+                        <img src="php2 logo.svg" alt="">
+                        <img src="python-4 logo.svg" alt="">
+                        <img src="javascript-logo.svg" alt="">
+                    </div>
                     <p style="font-size: 16px; padding-top: 9%; color: #1b1a20;">This track deals with 
                         the aspect of the application the user 
                         does not directly interact with. It allows the frontend function either 
@@ -269,8 +279,11 @@
                 </div>
                 <div class="box-crse">
                     <p style="font-size: 20px; font-weight: 700;">Product Design</p>
-                    <img src="adobe-xd logo.svg" alt="">
-                    <img src="Figmalogo.svg" alt="">
+                    <div class="logo-div">
+                        <img src="adobe-xd logo.svg" alt="">
+                        <img src="Figmalogo.svg" alt="">
+                    </div>
+                
                     <p style="font-size: 16px; padding-top: 9%; color: #1b1a20;">This track deals with 
                         creating a graphic plan for an application. 
                         You will learn to convert project documentation into viewable and 
@@ -348,11 +361,9 @@
             <div id="sect-eig-three">
                 <div style="color:#1b1a20; padding-right: 1%;"><p>Still got questions?</p></div>
                 <div id="sect-eig-ii">
-                    <!-- <button> -->
-                        <img src="twitter.svg" alt="">
-                        <a href="https://twitter.com/thezuriteam" 
-                        id="sect-eig-a">Tweet them at us </a>
-                    <!-- </button> -->
+                    <img src="twitter.svg" alt="">
+                    <p><a href="https://twitter.com/thezuriteam" 
+                        id="sect-eig-a">Tweet them at us </a></p>
                 </div>
             </div>
             <hr>
@@ -376,7 +387,7 @@
             padding-left: 23%;">Program Structure</p>
 
             <p style="text-align: center; color: #1b1a20; 
-            font-size: 16px;">There are 2 broad paths in this program 
+            font-size: 16px; padding-left: 21%;">There are 2 broad paths in this program 
             based on your availability.</p>
 
             <div>
@@ -513,7 +524,7 @@
                             </svg>
                             <p class="svg-p">Certification of Attendance</p>
                         </div>
-                        <div>
+                        <div id="lst-div">
                             <svg>
                                 <circle cx="12" cy="12" r="2" stroke="white" 
                                 fill="rgb(255, 255, 2550)"></circle>
@@ -542,8 +553,8 @@
                 <div id="sect-ten-p">
                     <p class="center-p">Get Started</p>
                     <p class="center-p" style="font-size: 51px; 
-                    font-weight: 700; margin-top: 5%;">Break into the
-                        tech industry like a Pro
+                    font-weight: 700; margin-top: 5%; line-height: 119%;">
+                    Break into the tech industry like a Pro
                     </p>
                     <a class="sect-ten-btn" href="https://training.zuri.team/enroll">Enroll Now</a>
                 </div>
